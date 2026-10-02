@@ -3,7 +3,7 @@ import { BusinessDriver } from "@/components/BusinessDriver";
 import { ContactSection } from "@/components/ContactSection";
 import { Expertise } from "@/components/Expertise";
 import { Hero } from "@/components/Hero";
-import { RegulatoryStorm } from "@/components/RegulatoryStorm";
+import { MarketEnvironment } from "@/components/MarketEnvironment";
 import { Sectors } from "@/components/Sectors";
 import { Services } from "@/components/Services";
 import { Stats } from "@/components/Stats";
@@ -16,7 +16,7 @@ export default function HomePage() {
       <Hero />
       <Stats />
       <About />
-      <RegulatoryStorm />
+      <MarketEnvironment />
       <Sectors />
       <Expertise />
       <WhyExperience />

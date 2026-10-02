@@ -4,19 +4,29 @@ export function asset(path: string) {
 }
 
 export const EMAIL = "anatolymazo@gmail.com";
-export const CONSULT_SUBJECT = "Compliance consultation request";
+export const CONSULT_SUBJECT = "Consultation request";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/anatoly-mazo-9949a85";
 export const SITE_NAME = "Anatoly Mazo";
 export const SITE_TITLE =
-  "Anatoly Mazo — Institutional Compliance Consulting";
+  "Anatoly Mazo — Financial & Technology Consulting";
 export const SITE_DESCRIPTION =
-  "Senior-level compliance consulting forged at Wells Fargo. Boutique, executive-level advisory for private funds, wealth managers, family offices, and high-growth investment companies.";
+  "Financial consulting and technology consulting from Anatoly Mazo, drawing on 30+ years in regulated financial services at Wells Fargo. Boutique, executive-level advisory for private funds, wealth managers, family offices, and high-growth investment companies.";
+
+export const SITE_KEYWORDS = [
+  "Anatoly Mazo",
+  "financial consulting",
+  "technology consulting",
+  "private funds",
+  "wealth management",
+  "family offices",
+  "investment companies",
+];
 
 export const PAY_URL = "https://buy.stripe.com/aFadR91w7d3t4YoeJZ7EQ01";
 export const consultMailto = `mailto:${EMAIL}?subject=${encodeURIComponent(CONSULT_SUBJECT)}`;
 
 export const SECTOR_OPTIONS = [
-  "3c1 Private Funds",
+  "Private Funds",
   "Wealth Management & Family Offices",
   "High-Growth Investment Companies",
   "Other",

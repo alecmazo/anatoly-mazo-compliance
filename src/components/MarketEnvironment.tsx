@@ -4,20 +4,20 @@ import { Container } from "@/components/Container";
 
 const CARDS = [
   {
-    title: "Rising Regulatory Pressure",
-    body: "SEC examinations are more frequent, more technical, and more consequential than ever before.",
+    title: "Rising Complexity",
+    body: "Investment firms juggle more data, more systems, and more reporting demands than ever before.",
   },
   {
-    title: "Reputational Stakes",
-    body: "One missed requirement can trigger enforcement actions that erode investor trust overnight.",
+    title: "Investor Expectations",
+    body: "Sophisticated investors expect clear numbers, dependable operations, and timely, accurate reporting.",
   },
   {
-    title: "Compliance as Advantage",
-    body: "Firms that invest in robust programs outperform — attracting institutional capital and resisting disruption.",
+    title: "Operations as Advantage",
+    body: "Firms that invest in sound financial operations and the right technology are better placed to grow and to attract institutional capital.",
   },
 ];
 
-export function RegulatoryStorm() {
+export function MarketEnvironment() {
   return (
     <section className="bg-band py-20 md:py-28" aria-labelledby="storm-heading">
       <Container>
@@ -27,13 +27,14 @@ export function RegulatoryStorm() {
               The environment
             </p>
             <h2 id="storm-heading" className="mt-3 text-3xl font-semibold md:text-4xl">
-              The Regulatory Storm is Growing
+              The Pressure on Financial Firms Is Growing
             </h2>
             <p className="mt-6 max-w-xl text-[1.05rem] text-ink">
-              Financial institutions face unprecedented scrutiny from the SEC and
-              global regulators. A single compliance oversight can dismantle years of
-              hard-earned reputation and growth. In today&apos;s environment, true
-              compliance is no longer a checklist — it is your greatest competitive
+              Financial firms face more complexity, closer scrutiny, and higher
+              investor expectations than ever. Weak financial processes or
+              outdated technology can undermine years of hard-earned reputation and
+              growth. In today&apos;s environment, sound finance and well-chosen
+              technology are no longer back-office details — they are a competitive
               advantage.
             </p>
           </div>

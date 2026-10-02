@@ -20,17 +20,18 @@ export function Hero() {
       <div className="absolute inset-0 bg-white/55" aria-hidden="true" />
       <Container className="relative py-24 md:py-36">
         <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">
-          Compliance consulting
+          Financial &amp; technology consulting
         </p>
         <h1
           id="hero-heading"
           className="mt-5 max-w-3xl text-4xl font-semibold md:text-5xl md:leading-[1.12]"
         >
-          Anatoly Mazo: Three Decades of Institutional Compliance Expertise
+          Anatoly Mazo: Financial &amp; Technology Consulting Backed by Three Decades of Institutional Experience
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-ink md:text-xl">
-          Senior-level compliance consulting forged at Wells Fargo — now available
-          to protect and empower your firm.
+          Senior-level financial and technology consulting, informed by more than
+          30 years in regulated financial services at Wells Fargo — now available
+          to strengthen and empower your firm.
         </p>
         <div className="mt-10 flex flex-col gap-3 sm:flex-row">
           <a
@@ -40,7 +41,7 @@ export function Hero() {
             Schedule a Consultation
           </a>
           <a
-            href="#expertise"
+            href="#services"
             className="inline-flex items-center justify-center rounded-lg border border-charcoal bg-white/80 px-6 py-3 text-sm font-medium text-charcoal hover:bg-white"
           >
             Learn More

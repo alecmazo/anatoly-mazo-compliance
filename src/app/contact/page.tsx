@@ -6,7 +6,7 @@ import { EMAIL, LINKEDIN_URL, PAY_URL, consultMailto } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Email Anatoly Mazo at anatolymazo@gmail.com to request a confidential compliance consultation.",
+    "Email Anatoly Mazo at anatolymazo@gmail.com to request a confidential financial or technology consultation.",
 };
 
 export default function ContactPage() {

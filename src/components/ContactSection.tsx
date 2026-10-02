@@ -17,8 +17,8 @@ export function ContactSection() {
           Secure Your Firm&apos;s Future
         </h2>
         <p className="mt-6 max-w-2xl text-[1.05rem] text-ink">
-          Your compliance program is your firm&apos;s first line of defense and its
-          most powerful statement of credibility. Email Anatoly at{" "}
+          Sound financial operations and the right technology are among your
+          firm&apos;s most powerful statements of credibility. Email Anatoly at{" "}
           <a className="underline" href={`mailto:${EMAIL}`}>
             {EMAIL}
           </a>{" "}
@@ -30,14 +30,14 @@ export function ContactSection() {
             <h3 className="font-heading text-xl font-semibold">Confidential Consultation</h3>
             <p className="mt-3 text-sm leading-relaxed text-ink">
               A private, no-obligation discussion to assess your firm&apos;s current
-              compliance posture and identify immediate opportunities.
+              financial and technology needs and identify immediate opportunities.
             </p>
           </article>
           <article className="card p-6">
             <h3 className="font-heading text-xl font-semibold">Custom Engagement Plan</h3>
             <p className="mt-3 text-sm leading-relaxed text-ink">
               A tailored scope of work aligned to your firm&apos;s structure, size,
-              and regulatory obligations — built around your timeline.
+              and objectives — built around your timeline.
             </p>
           </article>
         </div>

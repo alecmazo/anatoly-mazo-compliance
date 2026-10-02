@@ -5,8 +5,8 @@ import { Container } from "@/components/Container";
 const POINTS = [
   {
     n: "1",
-    title: "Audit-Proven Judgment",
-    body: "Strategies refined through real SEC examinations, not simulations or case studies.",
+    title: "Proven Judgment",
+    body: "Instincts refined through real regulatory examinations and audits inside a global bank, not simulations or case studies.",
   },
   {
     n: "2",
@@ -37,8 +37,8 @@ export function WhyExperience() {
               Why Experience Matters
             </h2>
             <p className="mt-6 text-[1.05rem] text-ink">
-              Theoretical compliance frameworks often collapse under the pressure of
-              a real-world audit. Textbook knowledge cannot substitute for the
+              Theoretical frameworks often collapse under real-world pressure.
+              Textbook knowledge cannot substitute for the
               instincts earned over three decades inside one of the world&apos;s
               largest financial institutions.
             </p>

@@ -3,7 +3,7 @@ import { asset } from "@/lib/site";
 import { Container } from "@/components/Container";
 
 const POINTS = [
-  "Reframe compliance as a bedrock of efficiency, not a burden",
+  "Treat finance and technology as foundations of efficiency, not overhead",
   "Free leadership to focus on growth and strategy",
   "Demonstrate the transparency institutional investors demand",
 ];
@@ -17,14 +17,14 @@ export function BusinessDriver() {
             Operational excellence
           </p>
           <h2 id="driver-heading" className="mt-3 text-3xl font-semibold md:text-4xl">
-            Compliance as a Business Driver
+            Finance &amp; Technology as Business Drivers
           </h2>
           <p className="mt-6 text-[1.05rem] text-ink">
-            The most successful firms don&apos;t view compliance as an obstacle —
-            they treat it as the foundation of operational excellence. By reducing
-            friction in daily processes and embedding ethical standards into firm
-            culture, compliance becomes a catalyst for growth rather than a
-            constraint on it.
+            The most successful firms don&apos;t view their financial operations
+            and technology as back-office afterthoughts — they treat them as the
+            foundation of operational excellence. By reducing friction in daily
+            processes and embedding sound standards into firm culture, finance and
+            technology become catalysts for growth rather than constraints on it.
           </p>
           <ul className="mt-8 space-y-3">
             {POINTS.map((point) => (

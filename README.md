@@ -1,6 +1,6 @@
-# Anatoly Mazo — Compliance Consulting
+# Anatoly Mazo — Financial & Technology Consulting
 
-Production marketing website for Anatoly Mazo's independent compliance consulting practice. It replaces a Gamma slideshow with a real scrolling site. Every consultation and contact action emails **anatolymazo@gmail.com** directly.
+Production marketing website for Anatoly Mazo's independent financial and technology consulting practice. It replaces a Gamma slideshow with a real scrolling site. Every consultation and contact action emails **anatolymazo@gmail.com** directly.
 
 There is no Calendly, no published phone number, and no third-party form backend (no Formspree, FormSubmit, or similar). The contact form validates in the browser, then opens a pre-filled mailto.
 
@@ -27,14 +27,14 @@ Next.js App Router, TypeScript, and Tailwind CSS.
 
 ## Pages
 
-- `/` — full marketing site (hero, expertise, sectors, approach, services, contact)
+- `/` — full marketing site (hero, about, expertise, sectors, approach, services — Financial Consulting and Technology Consulting — contact, pay)
 - `/contact` — the same contact form, email, and LinkedIn
 - `/privacy` — short privacy note (no invented office address)
 
 ## Contact
 
 - Email: anatolymazo@gmail.com
-- Consultation subject line: Compliance consultation request
+- Consultation subject line: Consultation request
 - LinkedIn: https://www.linkedin.com/in/anatoly-mazo-9949a85
 
 Anatoly Mazo is an independent consultant. Content on this site is not legal advice and is not affiliated with or endorsed by Wells Fargo.

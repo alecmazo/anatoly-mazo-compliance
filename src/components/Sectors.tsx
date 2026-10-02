@@ -5,28 +5,28 @@ import { Container } from "@/components/Container";
 
 const SECTORS = [
   {
-    id: "sectors-3c1",
-    title: "3c1 Private Funds",
+    id: "sectors-private-funds",
+    title: "Private Funds",
     summary:
-      "Tailored compliance programs for private funds operating under the Investment Company Act exemption, with precise attention to investor count limits and regulatory triggers.",
+      "Financial and technology support for private funds that need institutional-quality operations without institutional-sized overhead.",
     detail:
-      "Exemption eligibility is binary: a fund either fits 3(c)(1) or it does not. Work typically covers investor-count methodology (including look-through and beneficial ownership), hard gates before a 100-beneficial-owner breach, and alignment of offering materials, side letters, and subscription processes so marketing does not create a registration trigger. Deliverables often include a written 3(c)(1) playbook, onboarding controls, and a calendar for ongoing eligibility testing.",
+      "Private funds live and die by investor confidence. Work typically covers how capital activity, valuations, and investor reporting flow through the fund's processes and systems; where manual steps and spreadsheets create risk; and which practical improvements — in process, reporting, or tooling — will make operations more dependable as the fund grows.",
   },
   {
     id: "sectors-wealth",
     title: "Wealth Management & Family Offices",
     summary:
-      "Navigating fiduciary duties, disclosure obligations, and adviser registration requirements for high-net-worth and ultra-high-net-worth client structures.",
+      "Clear financial oversight and fit-for-purpose technology for high-net-worth and ultra-high-net-worth client structures.",
     detail:
-      "Family offices and wealth platforms sit at the intersection of adviser registration, the family-office exclusion, custody, and disclosure. Engagements map entity charts and advisory relationships, determine whether SEC or state registration (or a bona fide exclusion) applies, and then build Form ADV, CRS, and private-fund disclosure that match how the firm actually operates — including related-person arrangements and cross-border family members that examiners routinely probe.",
+      "Family offices and wealth platforms often manage many entities, accounts, and relationships at once. Engagements map how money, data, and decisions actually move through the organization, then strengthen financial reporting, controls, and the systems behind them — so principals get a clear, reliable picture of where they stand.",
   },
   {
     id: "sectors-growth",
     title: "High-Growth Investment Companies",
     summary:
-      "Scalable compliance infrastructure designed to grow alongside your AUM — without becoming a bottleneck to your firm's ambitions.",
+      "Financial processes and technology designed to grow alongside your AUM — without becoming a bottleneck to your firm's ambitions.",
     detail:
-      "Rapid AUM growth breaks programs designed for a ten-person firm. The work designs policy suites, personal-trading and MNPI controls, vendor oversight, and CCO reporting that expand with headcount and product lines — so new strategies, offices, or investor channels do not outrun the control environment. The objective is examination-ready infrastructure that does not stall fundraising or operations.",
+      "Rapid AUM growth breaks processes and systems designed for a ten-person firm. The work focuses on financial operations, reporting, vendor and platform choices, and technology roadmaps that expand with headcount and product lines — so new strategies, offices, or investor channels do not outrun the firm's operating foundation.",
   },
 ] as const;
 
@@ -65,9 +65,9 @@ export function Sectors() {
           Specialized Support for Critical Sectors
         </h2>
         <p className="mt-5 max-w-2xl text-ink">
-          Anatoly Mazo&apos;s consulting practice is purpose-built for the
-          organizations where compliance complexity is highest and the consequences
-          of failure are greatest. Select a sector for practical detail.
+          Anatoly Mazo&apos;s consulting practice is purpose-built for financial
+          organizations where operational complexity is high and the stakes for
+          investors are greatest. Select a sector for practical detail.
         </p>
         <ul className="mt-12 grid gap-5">
           {SECTORS.map((sector) => {

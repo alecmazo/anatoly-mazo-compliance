@@ -4,16 +4,16 @@ import { Container } from "@/components/Container";
 
 const CARDS = [
   {
-    title: "Independent Oversight",
-    body: "Objective fiduciary risk management free from internal blind spots — the independent perspective your firm needs most.",
+    title: "Independent Perspective",
+    body: "An objective view of your financial operations and technology, free from internal blind spots — the independent perspective your firm needs most.",
   },
   {
-    title: "Scalable Protocols",
-    body: "Internal compliance systems designed to grow seamlessly alongside your AUM without breaking under expansion pressure.",
+    title: "Scalable Systems",
+    body: "Processes and technology designed to grow alongside your AUM without breaking under expansion pressure.",
   },
   {
-    title: "Investor Disclosure",
-    body: "Expert navigation of complex disclosure requirements that protect your firm and build confidence with sophisticated investors.",
+    title: "Investor Transparency",
+    body: "Clear, dependable financial reporting that builds confidence with sophisticated investors.",
   },
 ];
 
@@ -36,13 +36,13 @@ export function StrategicPartner() {
               Partnership
             </p>
             <h2 id="partner-heading" className="mt-3 text-3xl font-semibold md:text-4xl">
-              Your Strategic Compliance Partner
+              Your Strategic Partner
             </h2>
             <p className="mt-6 text-[1.05rem] text-ink">
               Beyond reactive problem-solving, Anatoly Mazo serves as a strategic
               partner embedded in your firm&apos;s long-term success — providing
-              independent oversight, building scalable infrastructure, and ensuring
-              transparency at every level.
+              an independent perspective, building scalable infrastructure, and
+              supporting transparency at every level.
             </p>
           </div>
         </div>

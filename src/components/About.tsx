@@ -18,9 +18,9 @@ export function About() {
               With over 30 years navigating the most complex regulatory environments
               at Wells Fargo, Anatoly Mazo brings institutional-grade expertise
               directly to your organization. As a former senior compliance officer,
-              he now delivers boutique, executive-level consulting tailored to the
-              modern financial landscape — combining the rigor of a global bank with
-              the agility your firm needs.
+              he now delivers boutique, executive-level financial and technology
+              consulting tailored to the modern financial landscape — combining the
+              rigor of a global bank with the agility your firm needs.
             </p>
           </div>
         </div>

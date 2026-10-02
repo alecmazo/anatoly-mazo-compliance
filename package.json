@@ -2,7 +2,7 @@
   "name": "anatoly-mazo-compliance",
   "version": "1.0.0",
   "private": true,
-  "description": "Marketing site for Anatoly Mazo's institutional compliance consulting practice.",
+  "description": "Marketing site for Anatoly Mazo's financial and technology consulting practice.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -10,7 +10,7 @@ export function Footer() {
         <div>
           <p className="font-heading text-lg font-semibold text-charcoal">{SITE_NAME}</p>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted">
-            Institutional compliance consulting for private funds, wealth managers,
+            Financial and technology consulting for private funds, wealth managers,
             family offices, and high-growth investment companies.
           </p>
         </div>
@@ -79,7 +79,7 @@ export function Footer() {
       <div className="border-t border-line/80">
         <div className="mx-auto max-w-[1080px] space-y-3 px-5 py-6 text-xs leading-relaxed text-muted md:px-8">
           <p>
-            © {year} {SITE_NAME}. Independent compliance consultant.
+            © {year} {SITE_NAME}. Independent consultant.
           </p>
           <p>
             This website describes professional consulting services. It is not legal

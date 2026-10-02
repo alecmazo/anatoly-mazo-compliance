@@ -25,8 +25,8 @@ export default function PrivacyPage() {
           <div>
             <h2 className="text-2xl font-semibold">Who operates this site</h2>
             <p className="mt-3">
-              This website is operated by {SITE_NAME}, an independent compliance
-              consultant. It is not a law firm, not a registered investment
+              This website is operated by {SITE_NAME}, an independent financial and
+              technology consultant. It is not a law firm, not a registered investment
               adviser, and not affiliated with or endorsed by Wells Fargo.
             </p>
           </div>

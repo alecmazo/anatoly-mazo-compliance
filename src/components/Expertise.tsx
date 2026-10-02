@@ -4,16 +4,16 @@ import { Container } from "@/components/Container";
 
 const ITEMS = [
   {
-    title: "Regulatory Mastery",
-    body: "Comprehensive command of SEC, FINRA, and state-level rules, applied practically to your firm's specific structure and strategy.",
+    title: "Financial Insight",
+    body: "A practitioner's understanding of how investment firms actually operate, applied practically to your firm's specific structure and strategy.",
   },
   {
-    title: "Strategic Program Design",
-    body: "Custom-built compliance frameworks tailored to your business model — not generic templates that leave gaps for regulators to find.",
+    title: "Practical Technology",
+    body: "Systems and processes matched to your business model — not generic tools that add cost and complexity without solving the real problem.",
   },
   {
-    title: "Proactive Risk Mitigation",
-    body: "Anticipating examiner expectations before they arrive, so your firm is always examination-ready, not scrambling to catch up.",
+    title: "Risk-Aware Judgment",
+    body: "Experience across regulated financial services means risk and control are considered from the start, not bolted on later.",
   },
 ];
 
@@ -40,13 +40,13 @@ export function Expertise() {
               Expertise
             </p>
             <h2 id="expertise-heading" className="mt-3 text-3xl font-semibold md:text-4xl">
-              Expertise That Protects
+              Expertise That Strengthens Your Firm
             </h2>
             <p className="mt-5 max-w-xl text-ink">
-              Effective compliance isn&apos;t reactive — it&apos;s strategic. Anatoly
-              Mazo brings deep practitioner-led knowledge of federal and state
-              regulatory regimes to design programs that don&apos;t just satisfy
-              examiners, but genuinely fortify your firm.
+              Good decisions about finance and technology aren&apos;t reactive —
+              they&apos;re strategic. Anatoly Mazo brings deep, practitioner-led
+              experience from more than three decades in regulated financial
+              services to help your firm operate with clarity and confidence.
             </p>
           </div>
         </div>
