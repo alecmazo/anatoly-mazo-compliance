@@ -10,34 +10,22 @@ export const SITE_NAME = "Anatoly Mazo";
 export const SITE_TITLE =
   "Anatoly Mazo — Financial & Technology Consulting";
 export const SITE_DESCRIPTION =
-  "Financial consulting and technology consulting from Anatoly Mazo, drawing on 30+ years in regulated financial services at Wells Fargo. Boutique, executive-level advisory for private funds, wealth managers, family offices, and high-growth investment companies.";
+  "Simple, practical financial and technology consulting for individuals and business owners from Anatoly Mazo, with 30+ years of experience at Wells Fargo.";
 
 export const SITE_KEYWORDS = [
   "Anatoly Mazo",
   "financial consulting",
   "technology consulting",
-  "private funds",
-  "wealth management",
-  "family offices",
-  "investment companies",
+  "consulting for individuals",
+  "small business consulting",
+  "business owners",
 ];
 
 export const PAY_URL = "https://buy.stripe.com/aFadR91w7d3t4YoeJZ7EQ01";
 export const consultMailto = `mailto:${EMAIL}?subject=${encodeURIComponent(CONSULT_SUBJECT)}`;
 
-export const SECTOR_OPTIONS = [
-  "Private Funds",
-  "Wealth Management & Family Offices",
-  "High-Growth Investment Companies",
-  "Other",
-] as const;
-
-export type SectorOption = (typeof SECTOR_OPTIONS)[number];
-
 export const NAV_LINKS = [
-  { href: "/#expertise", hash: "#expertise", label: "Expertise" },
-  { href: "/#sectors", hash: "#sectors", label: "Sectors" },
-  { href: "/#approach", hash: "#approach", label: "Approach" },
+  { href: "/#about", hash: "#about", label: "About" },
   { href: "/#services", hash: "#services", label: "Services" },
   { href: "/#contact", hash: "#contact", label: "Contact" },
   { href: "/#pay", hash: "#pay", label: "Pay" },
@@ -45,18 +33,14 @@ export const NAV_LINKS = [
 
 export function buildConsultMailto(fields: {
   name: string;
-  firm: string;
   email: string;
   phone?: string;
-  sector: string;
   message: string;
 }): string {
   const body = [
     `Name: ${fields.name}`,
-    `Firm: ${fields.firm}`,
     `Email: ${fields.email}`,
     `Phone: ${fields.phone?.trim() ? fields.phone.trim() : "Not provided"}`,
-    `Sector: ${fields.sector}`,
     "",
     "Message:",
     fields.message.trim(),

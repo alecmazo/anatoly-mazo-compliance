@@ -6,12 +6,11 @@ const SERVICES = [
     id: "financial-consulting",
     title: "Financial Consulting",
     summary:
-      "Independent, senior-level guidance on the financial operations, risk, and reporting of investment firms — drawn from more than 30 years inside Wells Fargo.",
+      "Straight answers about your personal or business finances.",
     points: [
-      "Review of financial processes, controls, and reporting for private funds, wealth managers, family offices, and growing investment companies",
-      "Practical assessment and prioritization of financial and operational risk",
-      "Clear, dependable investor reporting that supports transparency with sophisticated investors",
-      "An experienced sounding board for leadership on growth, new strategies, and operating structure",
+      "Look over how your money or business finances are set up",
+      "Spot problems and risks before they cost you",
+      "Get an experienced second opinion on big decisions",
     ],
   },
   {
@@ -19,12 +18,11 @@ const SERVICES = [
     id: "technology-consulting",
     title: "Technology Consulting",
     summary:
-      "Practical guidance on the systems, data, and processes that run a modern financial firm — so technology scales with the business instead of becoming a bottleneck.",
+      "Help choosing and using the right technology, without the jargon.",
     points: [
-      "Assessment of current systems, workflows, and data flows across the firm",
-      "Process improvement and automation opportunities that reduce friction in daily operations",
-      "Risk-aware selection and oversight of technology vendors and platforms",
-      "Technology roadmaps that grow with headcount, AUM, and new product lines",
+      "Review the tools and systems you use today",
+      "Find simple ways to save time and cut busywork",
+      "Pick the right software and avoid costly mistakes",
     ],
   },
 ] as const;
@@ -33,7 +31,7 @@ export function Services() {
   return (
     <section
       id="services"
-      className="section-anchor bg-white py-20 md:py-28"
+      className="section-anchor bg-band py-20 md:py-28"
       aria-labelledby="services-heading"
     >
       <Container>
@@ -41,13 +39,8 @@ export function Services() {
           Services
         </p>
         <h2 id="services-heading" className="mt-3 max-w-3xl text-3xl font-semibold md:text-4xl">
-          Two Focused Services
+          How Anatoly Can Help
         </h2>
-        <p className="mt-5 max-w-2xl text-ink">
-          Anatoly Mazo offers two services, each delivered personally and grounded
-          in three decades of institutional experience in regulated financial
-          services.
-        </p>
         <ul className="mt-12 grid gap-5 md:grid-cols-2">
           {SERVICES.map((service) => (
             <li

@@ -6,7 +6,7 @@ import { EMAIL, LINKEDIN_URL, PAY_URL, consultMailto } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Email Anatoly Mazo at anatolymazo@gmail.com to request a confidential financial or technology consultation.",
+    "Email Anatoly Mazo at anatolymazo@gmail.com to set up a financial or technology consultation.",
 };
 
 export default function ContactPage() {
@@ -19,8 +19,7 @@ export default function ContactPage() {
           </p>
           <h1 className="mt-3 max-w-3xl text-4xl font-semibold">Contact Anatoly Mazo</h1>
           <p className="mt-5 max-w-2xl text-lg text-ink">
-            There is no calendar widget. Write directly and a confidential
-            conversation can follow by email.
+            Send an email or use the form below.
           </p>
         </Container>
       </section>
@@ -61,16 +60,11 @@ export default function ContactPage() {
             >
               Pay securely
             </a>
-            <p className="mt-8 max-w-sm text-sm text-muted">
-              Independent consultant. Not legal advice. Not affiliated with or
-              endorsed by Wells Fargo.
-            </p>
           </div>
           <div className="card p-6 md:p-8">
-            <h2 className="text-2xl font-semibold">Request a consultation</h2>
+            <h2 className="text-2xl font-semibold">Send a message</h2>
             <p className="mt-2 mb-6 text-sm text-muted">
-              Required fields: full name, firm, email, sector, and message. Phone is
-              optional. Submit opens your email app addressed to {EMAIL}.
+              This opens your email app with a message to {EMAIL}.
             </p>
             <ContactForm />
           </div>

@@ -26,12 +26,12 @@ export function Hero() {
           id="hero-heading"
           className="mt-5 max-w-3xl text-4xl font-semibold md:text-5xl md:leading-[1.12]"
         >
-          Anatoly Mazo: Financial &amp; Technology Consulting Backed by Three Decades of Institutional Experience
+          Clear, Practical Help with Money and Technology
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-ink md:text-xl">
-          Senior-level financial and technology consulting, informed by more than
-          30 years in regulated financial services at Wells Fargo — now available
-          to strengthen and empower your firm.
+          Anatoly Mazo helps individuals and business owners make good decisions
+          about money and technology. He brings 30+ years of experience at Wells
+          Fargo and explains things in plain words.
         </p>
         <div className="mt-10 flex flex-col gap-3 sm:flex-row">
           <a
@@ -44,7 +44,7 @@ export function Hero() {
             href="#services"
             className="inline-flex items-center justify-center rounded-lg border border-charcoal bg-white/80 px-6 py-3 text-sm font-medium text-charcoal hover:bg-white"
           >
-            Learn More
+            See Services
           </a>
         </div>
       </Container>

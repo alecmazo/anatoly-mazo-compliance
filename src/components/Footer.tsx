@@ -10,8 +10,8 @@ export function Footer() {
         <div>
           <p className="font-heading text-lg font-semibold text-charcoal">{SITE_NAME}</p>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-muted">
-            Financial and technology consulting for private funds, wealth managers,
-            family offices, and high-growth investment companies.
+            Financial and technology consulting for individuals and business
+            owners.
           </p>
         </div>
         <div>
@@ -82,10 +82,8 @@ export function Footer() {
             © {year} {SITE_NAME}. Independent consultant.
           </p>
           <p>
-            This website describes professional consulting services. It is not legal
-            advice, does not create an attorney-client or advisory relationship, and
-            is not a substitute for counsel licensed in your jurisdiction. Anatoly
-            Mazo is not affiliated with or endorsed by Wells Fargo.
+            Consulting services only. Not legal advice. Not affiliated with or
+            endorsed by Wells Fargo.
           </p>
         </div>
       </div>

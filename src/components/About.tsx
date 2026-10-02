@@ -4,30 +4,34 @@ import { Container } from "@/components/Container";
 
 export function About() {
   return (
-    <section className="bg-white py-20 md:py-28" aria-labelledby="about-heading">
+    <section
+      id="about"
+      className="section-anchor bg-white py-20 md:py-28"
+      aria-labelledby="about-heading"
+    >
       <Container className="grid items-center gap-12 lg:grid-cols-2">
         <div>
           <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">
-            The practice
+            About
           </p>
           <h2 id="about-heading" className="mt-3 text-3xl font-semibold md:text-4xl">
-            From Global Giants to Your Firm
+            Experience You Can Trust
           </h2>
           <div className="prose-site mt-6 max-w-xl text-[1.05rem] text-ink">
             <p>
-              With over 30 years navigating the most complex regulatory environments
-              at Wells Fargo, Anatoly Mazo brings institutional-grade expertise
-              directly to your organization. As a former senior compliance officer,
-              he now delivers boutique, executive-level financial and technology
-              consulting tailored to the modern financial landscape — combining the
-              rigor of a global bank with the agility your firm needs.
+              Anatoly spent more than 30 years at Wells Fargo, including time as a
+              senior compliance officer.
+            </p>
+            <p>
+              Today he works one-on-one with individuals and business people. You
+              work with him directly, and he keeps things simple.
             </p>
           </div>
         </div>
         <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-line">
           <Image
-            src={asset("/hero.png")}
-            alt="Executives in a conference room reviewing a growth chart during a professional meeting."
+            src={asset("/img4.png")}
+            alt="Two people in a one-on-one meeting at a table overlooking a city skyline."
             fill
             className="object-cover"
             sizes="(min-width: 1024px) 500px, 100vw"
